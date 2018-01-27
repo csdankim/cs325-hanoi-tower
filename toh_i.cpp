@@ -43,7 +43,7 @@ void toh(int n) {
 
 
   while (true) {
-    cout<<"Move Disk 1 from Tower "<<_mod(T, 3)<<" to Tower "<<_mod((T+P),3)<<endl;
+    cout<<"Move Disk from Tower "<<_mod(T, 3)<<" to Tower "<<_mod((T+P),3)<<endl;
     T = _mod(T+P,3);
     count = count + 1;
 
