@@ -3,7 +3,7 @@
 using namespace std;
 
 void hanoi (int n, char a, char b, char c) {
-  cout<<"call hanoi function"<<"("<<a<<","<<b<<","<<c<<","<<n<<")"<<endl;
+  //cout<<"call hanoi function"<<"("<<a<<","<<b<<","<<c<<","<<n<<")"<<endl;
   if (n==1) {
   cout<<"Move disk "<<n<<" from "<<a<<" to "<<c<<endl;
   }
