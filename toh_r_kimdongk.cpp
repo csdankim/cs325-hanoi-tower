@@ -5,7 +5,7 @@ using namespace std;
 void hanoi (int n, char a, char b, char c) {
   cout<<"call hanoi function"<<"("<<a<<","<<b<<","<<c<<","<<n<<")"<<endl;
   if (n==1) {
-    cout<<"Move disk "<<n<<" from "<<a<<" to "<<c<<endl;
+  cout<<"Move disk "<<n<<" from "<<a<<" to "<<c<<endl;
   }
   else {
     hanoi(n-1,a,c,b);
@@ -47,6 +47,7 @@ int main() {
 //
 //     double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
 //     cout<<"The number of disks: "<<i<<", Running Time is: "<<elapsed_secs<<endl;
+//     cout<<elapsed_secs<<endl;
 //   }
 //
 //   return 0;
